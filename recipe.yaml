@@ -16,8 +16,14 @@ tasks:
     ref: main
     dest: ./tmp/qbus
 
+  - action: connect_database
+
+  - action: query_database
+    file: ./tmp/qbus/QBCore-TxAdmin/sql.sql
+
   - action: move_path
-    src: ./tmp/qbus/
+    src: ./tmp/qbus/QBCore-TxAdmin/
     dest: ./
+
   - action: remove_path
-  path: ./tmp/qbus
+    path: ./tmp
