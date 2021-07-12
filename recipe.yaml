@@ -9,11 +9,12 @@ variables:
     dbName: null
 
 tasks:  
+  # Download Server Files
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
     ref: main
     dest: ./tmp/qbus
-
+  # Download Connecting and Executing SQL
   - action: connect_database
 
   - action: query_database
