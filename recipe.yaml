@@ -1,6 +1,6 @@
-name: QBusFW
+name: QBus Framework
 author: YuvrajVerma
-description: Testing
+description: QBus Framework - Without Assets (MLO and Vehicles)
 
 tasks:
   - action: download_github
