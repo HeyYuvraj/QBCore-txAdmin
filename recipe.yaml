@@ -1,11 +1,19 @@
 name: QBusFW
-version: 2.0
 author: YuvrajVerma
 description: Testing
 
 tasks:
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
-    ref: main
-    dest: ./
+    dest: ./temp/
+
+  - action: move_path
+    src: ./temp/resources
+    dest: ./resources
+    overwrite: true
+
+  - action: move_path
+    src: ./temp/server.cfg
+    dest: ./server.cfg
+    overwrite: true
 
