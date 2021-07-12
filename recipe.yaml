@@ -4,7 +4,6 @@ author: YuvrajVerma
 description: Testing
 
 tasks:
-
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
     ref: main
