@@ -1,6 +1,6 @@
 name: QBus Framework
 author: YuvrajVerma
-description: QBus Framework - Without Assets (MLO and Vehicles)
+description: QBus Framework - Without Assets (MLO and Vehicles).
 
 tasks:
   - action: download_github
