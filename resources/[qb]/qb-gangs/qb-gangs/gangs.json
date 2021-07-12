@@ -1,0 +1,23 @@
+{
+  "none": {
+    "label": "No Gang"
+  },
+  "ballas": {
+    "label": "Ballas"
+  },
+  "marabunta": {
+    "label": "Marabunta"
+  },
+  "maffia": {
+    "label": "Maffia"
+  },
+  "thefamily": {
+    "label": "The Family"
+  },
+  "vagos": {
+    "label": "Vagos"
+  },
+  "lost": {
+    "label": "The Lost MC"
+  }
+}

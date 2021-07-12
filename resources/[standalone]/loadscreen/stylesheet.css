@@ -1,0 +1,138 @@
+:root {
+    --background-contrast: 95%;
+    --background-blur: 3px;
+    --loadbar-color: #ffffff5b;
+    --loadbar-progress-color: #b12424;
+    --loadbar-height: 27px;
+    --footer-font-color: #dfdfdf98;
+    --footer-font-size: 24px;
+    --fadeTo-Color: #222222;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Lato');
+
+* {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #2f3640;
+}
+
+.blur {
+    -webkit-filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+    filter: blur(var(--background-blur)) contrast(var(--background-contrast));
+}
+
+.logo {
+    width: 450px;
+    height: 230px;
+}
+
+.loadbar {
+    border-radius: 5px;
+    width: 50%;
+    background-color: var(--loadbar-color);
+    height: var(--loadbar-height);
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: -30vh;
+    margin-left: -25vw;
+    width: 50vw;
+  
+    text-align: center;
+    display: block;
+}
+
+.yeet {
+    width: 0%;
+    border-radius: 5px;
+    background-color: var(--loadbar-progress-color);
+    height: var(--loadbar-height);
+
+    transition: 500ms;
+
+    position: absolute;
+    left: 0%;
+}
+
+#container {
+    text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px;
+    text-align: center;
+}
+
+#bg { 
+  -webkit-background-size: cover;
+  background-size: cover;
+   }
+
+#link {
+    color: var(--footer-font-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: var(--footer-font-size);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 29px;
+}
+
+#bottom_nav {
+    width: 90%;
+    vertical-align: text-bottom;
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    z-index:9999;
+}
+
+.enable_music {
+    color: #e7e7e7;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    margin: 50px auto;
+    animation: music 3s;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.teamspeak {
+    color: #e7e7e7;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    font-weight: 400;
+
+    margin: 50px auto;
+    animation: music 3s;
+	margin-left: 0px;
+	margin-top: 45%;
+}

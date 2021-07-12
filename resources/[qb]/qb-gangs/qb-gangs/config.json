@@ -1,0 +1,190 @@
+{
+  "families": {
+    "VehicleSpawner": {
+      "vehicles": {
+        "buffalo2": "Buffalo Sport",
+        "manchez": "Manchez",
+        "chino2": "Lowrider",
+        "rumpo3": "RumpoXL"
+      },
+      "label": "Car Spawn",
+      "coords": {
+        "z": 31.65,
+        "x": -108.24,
+        "h": 322.23,
+        "y": -1597.97
+      },
+      "colours": {
+        "secondary": {
+          "b": 0,
+          "g": 0,
+          "r": 0
+        },
+        "primary": {
+          "b": 0,
+          "g": 50,
+          "r": 0
+        }
+      }
+    },
+    "Stash": {
+      "coords": {
+        "z": 35.03,
+        "x": -136.91,
+        "h": 66.89,
+        "y": -1609.84
+      },
+      "label": "Families Stash"
+    }
+  },
+  "ballas": {
+    "VehicleSpawner": {
+      "vehicles": {
+        "buffalo2": "Buffalo Sport",
+        "manchez": "Manchez",
+        "chino2": "Lowrider",
+        "rumpo3": "RumpoXL"
+      },
+      "label": "Car Spawn",
+      "coords": {
+        "z": 20.75,
+        "x": 89.04,
+        "h": 324.12,
+        "y": -1967.09
+      },
+      "colours": {
+        "secondary": {
+          "b": 11,
+          "g": 18,
+          "r": 108
+        },
+        "primary": {
+          "b": 184,
+          "g": 11,
+          "r": 108
+        }
+      }
+    },
+    "Stash": {
+      "coords": {
+        "z": 21.3276,
+        "x": 113.3059,
+        "y": -1970.89
+      },
+      "label": "Ballas Stash"
+    }
+  },
+  "lost": {
+    "VehicleSpawner": {
+      "vehicles": {
+        "hexer": "Hexer",
+        "burrito3": "Burrito",
+        "nightblade": "Nightblade"
+      },
+      "label": "Car Spawn",
+      "coords": {
+        "z": 74.00828552246094,
+        "h": 57.54240798950195,
+        "x": 975.81640625,
+        "y": -132.17294311523438
+      },
+      "colours": {
+        "secondary": {
+          "b": 0,
+          "g": 0,
+          "r": 0
+        },
+        "primary": {
+          "b": 0,
+          "g": 0,
+          "r": 0
+        }
+      }
+    },
+    "Stash": {
+      "coords": {
+        "z": 74.84542083740235,
+        "h": 217.8155212402344,
+        "x": 987.299560546875,
+        "y": -92.63550567626952
+      },
+      "label": "lost Stash"
+    }
+  },
+  "marabunta": {
+    "VehicleSpawner": {
+      "vehicles": {
+        "buffalo": "Buffalo",
+        "primo2": "Primo Custom",
+        "burrito3": "Burrito",
+        "kuruma": "Kuruma"
+      },
+      "label": "Car Spawn",
+      "coords": {
+        "z": 60.96406173706055,
+        "x": 1422.27294921875,
+        "h": 161.4316864013672,
+        "y": -1505.5174560546876
+      },
+      "colours": {
+        "secondary": {
+          "r": 24,
+          "g": 56,
+          "b": 170
+        },
+        "primary": {
+          "r": 24,
+          "g": 56,
+          "b": 170
+        }
+      }
+    },
+    "Stash": {
+      "coords": {
+        "z": 66.61924743652344,
+        "x": 1438.90771484375,
+        "h": 247.366943359375,
+        "y": -1490.4158935546876
+      },
+      "label": "marabunta Stash"
+    }
+  },
+  "vagos": {
+    "VehicleSpawner": {
+      "vehicles": {
+        "buffalo2": "Buffalo Sport",
+        "manchez": "Manchez",
+        "chino2": "Lowrider",
+        "rumpo3": "RumpoXL"
+      },
+      "label": "Car Spawn",
+      "coords": {
+        "z": 21.05029678344726,
+        "h": 136.97149658203126,
+        "x": 327.4929809570313,
+        "y": -2027.5455322265626
+      },
+      "colours": {
+        "secondary": {
+          "r": 108,
+          "g": 18,
+          "b": 11
+        },
+        "primary": {
+          "r": 108,
+          "g": 11,
+          "b": 184
+        }
+      }
+    },
+    "Stash": {
+      "coords": {
+        "z": 22.39494895935058,
+        "h": 319.5579528808594,
+        "x": 337.393798828125,
+        "y": -2012.9971923828128
+      },
+      "label": "vagos Stash"
+    }
+  }
+}

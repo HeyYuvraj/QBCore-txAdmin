@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: none;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+.laptop-frame {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 95vh;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.screen-container {
+    position: absolute;
+    width: 89.8vh;
+    height: 50.3vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-color: white;
+    top: 24.8vh;
+    z-index: 99;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.task-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.task-bar-windows {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3vh;
+    width: 3vh;
+    text-align: center;
+    line-height: 3.2vh;
+    color: white;
+    font-size: 1.8vh;
+    transition: .05s linear;
+}
+
+.task-bar-windows:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .05s linear;
+}
+
+.task-bar-time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 3vh;
+    width: 5vh;
+    color: white;
+    line-height: 3.2vh;
+    text-align: center;
+    font-size: .8vh;
+    font-family: sans-serif;
+}
+
+.browser {
+    position: absolute;
+    width: 87vh;
+    height: 45vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 1vh;
+}
+
+.browser-topbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(146, 146, 146);
+}
+
+.browser-topbar-buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9vh;
+    height: 3vh;
+}
+
+.browser-topbar-button {
+    position: relative;
+    float: right;
+    color: white;
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+    line-height: 3vh;
+    font-size: 1.2vh;
+}
+
+.browser-topbar-url {
+    position: absolute;
+    left: .4vh;
+    top: .5vh;
+    width: 40vh;
+    height: 2vh;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.browser-topbar-url > span {
+    color: black;
+    margin-left: .5vh;
+    line-height: 2vh;
+    font-size: 1.3vh;
+}
+
+.browser-page {
+    position: absolute;
+    width: 100%;
+    height: 93.3%;
+    background-color: rgb(43, 43, 43);
+    bottom: 0;
+}
+
+.methlab-tasks {
+    position: absolute;
+    width: 25vh;
+    height: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+.methlab-task {
+    position: relative;
+    height: 7.5vh;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    margin-bottom: .5vh;
+    transition: .1s linear;
+}
+
+.methlab-task:hover {
+    background-color: rgb(15, 15, 15);
+    transition: .1s linear;
+}
+
+.methlab-task-label {
+    color: white;
+    padding: 1vh;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.2vh;
+}
+
+.methlab-task-completed {
+    position: relative;
+    color: white;
+    padding: 1vh;
+    top: -1.5vh;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.1vh;
+}
+
+.methlab-taskpage {
+    position: absolute;
+    width: 60vh;
+    height: 40vh;
+    background-color: rgb(27, 27, 27);
+    right: 1vh;
+    top: 1vh;
+}
+
+.methlab-taskpage-header {
+    position: relative;
+    color: white;
+    padding: 1vh;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.5vh;
+}
+
+.methlab-taskpage-task {
+    position: relative;
+    color: white;
+    padding: 1vh;
+    top: -1.2vh;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.3vh;
+}
+
+.methlab-taskpage-taskinfo {
+    position: relative;
+    color: white;
+    padding: 1vh;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.3vh;
+}
+
+.methlab-taskpage-information {
+    position: absolute;
+    width: 100%;
+    height: 27.6vh;
+    background-color: rgb(37, 37, 37);
+}

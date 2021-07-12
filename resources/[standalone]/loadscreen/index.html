@@ -1,0 +1,59 @@
+<!-- /* Need Help? Join my discord @ discord.gg/yWddFpQ */ -->
+<html>
+ <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="config.css" type="text/css">
+        <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+ </head>
+ <body>
+        <h1 class="enable_music">Server is loading.. Please wait...</h1>
+
+        <div class='blur' id="bg"></div>
+         
+        <div id="container">
+            <img class="logo" src="imgs/logo.png"></img>
+			<br>
+			
+		</div>
+		<div class="loadbar">
+			<div class="yeet"></div>
+		</div>
+		
+    <h1 class="teamspeak"><strong>Join Discord - </strong><strong>https://dsc.gg/yuvraj</strong></h1>
+    
+    <script> 
+      var config = {
+        progressBars:
+        {
+            "INIT_CORE": {
+                enabled: false,
+            },
+
+            "INIT_BEFORE_MAP_LOADED": {
+                enabled: true,
+            },
+
+            "MAP": {
+                enabled: true,
+            },
+
+            "INIT_AFTER_MAP_LOADED": {
+                enabled: true,
+            },
+
+            "INIT_SESSION": {
+                enabled: true,
+            }
+        }
+      }
+    </script>
+
+    <script src="js/app.js"></script>
+	  <script src="js/progressbar-main.js"></script>
+    <script src="js/progressbar-handler.js"></script>
+    <script src="js/progressbar-renderer.js"></script>
+ </body>
+</html>
