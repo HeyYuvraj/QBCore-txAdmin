@@ -9,7 +9,7 @@ variables:
     dbUsername: root
     dbPassword: ""
     dbName: null
-    
+
 tasks:  
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
@@ -19,3 +19,5 @@ tasks:
   - action: move_path
     src: ./tmp/qbus/
     dest: ./
+  - action: remove_path
+  path: ./tmp/qbus
