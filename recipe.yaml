@@ -12,7 +12,7 @@ tasks:
   # Download Server Files
   - action: download_file
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin/archive/refs/heads/main.zip
-    path: ./tmp/files/QBCore-TxAdmin-main.zip
+    path: ./tmp/QBCore-TxAdmin-main.zip
 
    - action: unzip
     src: ./tmp/QBCore-TxAdmin-main.zip
