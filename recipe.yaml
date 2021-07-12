@@ -3,6 +3,8 @@ version: 2.0
 author: Yuvraj Verma
 description: Testing
  
+
+tasks:  
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
     ref: main
