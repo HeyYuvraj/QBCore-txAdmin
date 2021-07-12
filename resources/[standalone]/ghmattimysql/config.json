@@ -1,7 +1,7 @@
 {
-    "user": "root",
-    "password": "",
-    "host": "localhost",
+    "user": "{{dbUsername}}",
+    "password": "{{dbPassword}}",
+    "host": "{{dbHost}}",
     "port": 3306,
-    "database": "qbcoredb"
+    "database": "{{dbName}}"
 }

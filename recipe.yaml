@@ -23,7 +23,10 @@ tasks:
     overwrite: true
   
   - action: connect_database
-  
+
   - action: query_database
     file: ./temp/sql.sql
+
+  - action: remove_path
+    path: ./temp
 
