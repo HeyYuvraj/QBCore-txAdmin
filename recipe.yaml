@@ -27,6 +27,11 @@ tasks:
   - action: query_database
     file: ./temp/sql.sql
 
+  - action: replace_string
+    mode: all_vars
+    file: 
+      - ./resources/[standalone]/ghmattimysql/config.json
+
   - action: remove_path
     path: ./temp
 
