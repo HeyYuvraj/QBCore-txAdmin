@@ -10,18 +10,21 @@ variables:
 
 tasks:  
   # Download Server Files
-  - action: download_github
-    src: https://github.com/HeyYuvraj/QBCore-TxAdmin
-    ref: main
-    dest: ./tmp/qbus
+  - action: download_file
+    src: https://github.com/HeyYuvraj/QBCore-TxAdmin/archive/refs/heads/main.zip
+    dest: ./tmp/
+
+   - action: unzip
+    src: ./tmp/QBCore-TxAdmin-main.zip
+    dest: ./tmp
   # Download Connecting and Executing SQL
   - action: connect_database
 
   - action: query_database
-    file: ./tmp/qbus/QBCore-TxAdmin/sql.sql
+    file: ./tmp/QBCore-TxAdmin-main/sql.sql
 
   - action: move_path
-    src: ./tmp/qbus/QBCore-TxAdmin/
+    src: ./tmp/QBCore-TxAdmin-main/
     dest: ./
 
   - action: remove_path
