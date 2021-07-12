@@ -17,3 +17,8 @@ tasks:
     dest: ./server.cfg
     overwrite: true
 
+  - action: move_path
+    src: ./temp/logo.png
+    dest: ./logo.png
+    overwrite: true
+
