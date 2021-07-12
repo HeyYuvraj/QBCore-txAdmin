@@ -21,4 +21,9 @@ tasks:
     src: ./temp/logo.png
     dest: ./logo.png
     overwrite: true
+  
+  - action: connect_database
+  
+  - action: query_database
+    file: ./temp/sql.sql
 
