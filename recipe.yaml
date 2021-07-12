@@ -4,6 +4,12 @@ author: Yuvraj Verma
 description: Testing
  
 
+variables:
+    dbHost: localhost
+    dbUsername: root
+    dbPassword: ""
+    dbName: null
+    
 tasks:  
   - action: download_github
     src: https://github.com/HeyYuvraj/QBCore-TxAdmin
