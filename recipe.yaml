@@ -1,0 +1,13 @@
+name: QBCore
+version: 2.0
+author: Yuvraj Verma
+description: Testing
+ 
+  - action: download_github
+    src: https://github.com/HeyYuvraj/QBCore-TxAdmin
+    ref: main
+    dest: ./tmp/qbus
+
+  - action: move_path
+    src: ./tmp/qbus/
+    dest: ./
